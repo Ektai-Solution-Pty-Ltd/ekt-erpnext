@@ -32,7 +32,7 @@ ERPNext as a monolith includes the following areas for managing businesses:
 
 ERPNext requires MariaDB.
 
-ERPNext is built on the [Frappe Framework](https://github.com/frappe/frappe), a full-stack web app framework built with Python & JavaScript.
+ERPNext is built on the [Frappe Framework](https://github.com/Ektai-Solution-Pty-Ltd/ekt-frappe), a full-stack web app framework built with Python & JavaScript.
 
 - [User Guide](https://erpnext.com/docs/user)
 - [Discussion Forum](https://discuss.erpnext.com/)
@@ -41,7 +41,7 @@ ERPNext is built on the [Frappe Framework](https://github.com/frappe/frappe), a 
 
 ### Full Install
 
-The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
+The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/Ektai-Solution-Pty-Ltd/ekt-bench for more details.
 
 New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
 
