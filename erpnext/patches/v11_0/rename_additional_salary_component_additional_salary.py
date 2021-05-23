@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 import frappe
 
-# this patch should have been included with this PR https://github.com/frappe/erpnext/pull/14302
+# this patch should have been included with this PR https://github.com/Ektai-Solution-Pty-Ltd/ekt-erpnext/pull/14302
 
 def execute():
 	if frappe.db.table_exists("Additional Salary Component"):

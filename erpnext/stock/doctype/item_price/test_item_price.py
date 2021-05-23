@@ -19,7 +19,7 @@ class TestItemPrice(unittest.TestCase):
 		self.assertRaises(ItemPriceDuplicateItem, doc.save)
 
 	def test_addition_of_new_fields(self):
-		# Based on https://github.com/frappe/erpnext/issues/8456
+		# Based on https://github.com/Ektai-Solution-Pty-Ltd/ekt-erpnext/issues/8456
 		test_fields_existance = [
 			'supplier', 'customer', 'uom', 'lead_time_days',
 			'packing_unit', 'valid_from', 'valid_upto', 'note'

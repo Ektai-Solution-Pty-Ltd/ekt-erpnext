@@ -3,7 +3,7 @@ import frappe
 from frappe.desk.form.linked_with import get_linked_doctypes
 
 # Skips user permission check for doctypes where department link field was recently added
-# https://github.com/frappe/erpnext/pull/14121
+# https://github.com/Ektai-Solution-Pty-Ltd/ekt-erpnext/pull/14121
 
 def execute():
 	doctypes_to_skip = []
